@@ -1,0 +1,4 @@
+#lang racket
+(define l(list 5 25))
+(define ops'( + - * /))
+
