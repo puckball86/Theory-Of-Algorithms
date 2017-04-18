@@ -1,4 +1,14 @@
 #lang racket
-(define l(list 5 25))
-(define ops'( + - * /))
+
+(define allnums
+  (permutations list 100 50 25 10 2 1)))
+
+(define ops (list '+ '- '* '/))
+
+(define allOps(cartesian-product ops ops ops ops ops))
+
+(cartesian-product allOps allNums)
+
+
+
 

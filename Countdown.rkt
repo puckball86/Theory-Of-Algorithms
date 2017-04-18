@@ -1,19 +1,14 @@
 #lang racket
 
-(define l '(list a b))
-(define ops'(+ - * /))
-(define a 5)
-(define b 25)
-;(define t  125)
+(define start (list -1 -1 -1 -1 1 1 1 1))
 
-(define trgt(list (+ a b)
-                  (- a b)
-                  (* a b)
-                  (/ a b)
-                  (+ b a)
-                  (- b a)
-                  (* b a)
-                  (/ b a)))
+(define per (remove-duplicates (permutations start)))
+
+(define nums( list 100 50 25 10 2 1))
+(permutations nums)
+
+
+
 
 
 
