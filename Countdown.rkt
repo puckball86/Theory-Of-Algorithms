@@ -1,4 +1,8 @@
 #lang racket
+(define (rand) (displayln(random 101 999)))
+
+(define trgtNum(rand))
+trgtNum
 
 (define start (list -1 -1 -1 -1 1 1 1 1))
 
