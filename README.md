@@ -42,4 +42,7 @@ In order to run any racket code you will need to install the IDE DrRacket. I hav
  - Open DrRacket and go to file -> open and locate where you saved the project.
  - The project folder will contain a few files but the one which you are interested in is Countdown.rkt.
  - One tip with DrRacket is on opening some files make sure at the top of the file it has `#lang racket`.
- - Without this the racket file you are working with will not work.
+ - Without this the racket file you are working with will not work.<br>
+ 
+ **License Added**
+ MIT License
