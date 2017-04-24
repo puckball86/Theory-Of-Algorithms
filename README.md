@@ -45,4 +45,9 @@ In order to run any racket code you will need to install the IDE DrRacket. I hav
  - Without this the racket file you are working with will not work.<br>
  
  **License Added**
+ 
  MIT License
+ 
+ **Link to Wiki**
+ 
+ [Wiki](https://github.com/puckball86/Theory-Of-Algorithms/wiki)
