@@ -83,7 +83,8 @@
         (if(> stk 1)
            (valid-rpn? (cdr e) (- stk 1))
            #f))))
-(valid-rpn?  (list 25 50 * 6 1 * 5 - 2 3 * +))
+
+(valid-rpn?  (list 4 6 8 + 2 - * ))
 
 
 
